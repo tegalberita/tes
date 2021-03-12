@@ -1,0 +1,28 @@
+<head>
+  {{ partial "arsae-client.html" . }}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  {{ hugo.Generator }}
+  {{ if .IsPage }}<meta name="description" content="{{ .Summary | markdownify | plainify | htmlUnescape }}">
+  {{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+  {{ $appleTouchIcon := "logo.svg" }}<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouchIcon | absURL }}">
+  {{ $favicon32x32 := "logo.svg" }}<link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ $favicon32x32 | absURL }}">
+  {{ $favicon16x16 := "logo.svg" }}<link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ $favicon16x16 | absURL }}">
+  {{ $safariPinnedTab := "logo.svg" }}<link rel="mask-icon" href="{{ $safariPinnedTab | absURL }}" color="{{ .Site.Params.faviconSafariPinnedTabColor }}">
+  {{ $tethermincss := "assets/tether/tether.min.css" }}<link rel="stylesheet" href="{{ $tethermincss | absURL }}">
+  {{ $bootstrapmincss := "assets/bootstrap/css/bootstrap.min.css" }}<link rel="stylesheet" href="{{ $bootstrapmincss | absURL }}">
+  {{ $bootstrapgridmincss := "assets/bootstrap/css/bootstrap-grid.min.css" }}<link rel="stylesheet" href="{{ $bootstrapgridmincss | absURL }}">
+  {{ $bootstraprebootmincss := "assets/bootstrap/css/bootstrap-reboot.min.css" }}<link rel="stylesheet" href="{{ $bootstraprebootmincss | absURL }}">
+  {{ $dropdownstyle := "assets/dropdown/css/style.css" }}<link rel="stylesheet" href="{{ $dropdownstyle | absURL }}">
+  {{ $sociconstyle := "assets/socicon/css/styles.css" }}<link rel="stylesheet" href="{{ $sociconstyle | absURL }}">
+  {{ $themestyle := "assets/theme/css/style.css" }}<link rel="stylesheet" href="{{ $themestyle | absURL }}">
+  {{ $mbradditional := "assets/mobirise/css/mbr-additional.css" }}<link rel="preload" as="style" href="{{ $mbradditional | absURL }}">
+  <link rel="stylesheet" href="{{ $mbradditional | absURL }}" type="text/css">
+  {{ $customstyle := "custom.css" }}<link rel="stylesheet" href="{{ $customstyle | absURL }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  {{ if .IsPage }}<title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ else }}<title>{{ .Site.Title }} - {{ .Site.Params.topdescription }}</title>{{ end }}
+  {{ partial "schema.html" . }}
+</head>

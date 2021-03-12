@@ -1,0 +1,101 @@
+---
+description: "Easiest Way to Prepare Favorite Korean Honey Butter Chicken - 허니 버터 치킨"
+title: "Easiest Way to Prepare Favorite Korean Honey Butter Chicken - 허니 버터 치킨"
+slug: 6973-easiest-way-to-prepare-favorite-korean-honey-butter-chicken
+date: 2020-08-11T10:43:18.635Z
+image: https://img-global.cpcdn.com/recipes/d31de24b214bc7da/751x532cq70/korean-honey-butter-chicken-허니-버터-치킨-recipe-main-photo.jpg
+thumbnail: https://img-global.cpcdn.com/recipes/d31de24b214bc7da/751x532cq70/korean-honey-butter-chicken-허니-버터-치킨-recipe-main-photo.jpg
+cover: https://img-global.cpcdn.com/recipes/d31de24b214bc7da/751x532cq70/korean-honey-butter-chicken-허니-버터-치킨-recipe-main-photo.jpg
+author: Blake Rhodes
+ratingvalue: 4.3
+reviewcount: 21664
+recipeingredient:
+- "200 g Chicken"
+- "1/2 tsp salt"
+- "1/2 tsp freshly ground black pepper"
+- " egg white of 1 medium size egg"
+- "2 tbsp Potato Starch"
+- "500 ml oil to fry"
+- "2 tbsp butter"
+- "2 finely chopped garlic"
+- "2 tsp brown sugar"
+- "1 tsp soy sauce"
+- "2 tsp honey"
+- " roasted sesame seeds for garnish"
+recipeinstructions:
+- "Mix 200g chicken with salt, freshly ground black pepper, egg white, potato starch."
+- "Mix the above thoroughly"
+- "First fry - Bone chicken (6-8 minutes) OR boneless chicken (4-5 minutes)"
+- "Rest the chicken aerated for 1-2 minutes"
+- "Second Fry - 2-3 minutes or until golden brown and remove from oil"
+- "Medium heat - In a broad skillet, add butter and once butter melts, add garlic and fry for a minute. Then add the brown sugar, once sugar melts, immediately add the honey, give a quick mix and turn off the heat. Now add the fried chicken and mix until the sauce is thoroughly coated to the chicken. Sprinkle with Sesame seeds"
+- "Serve Hot as Appetizer"
+- "Replacements : (1)Can replace potato starch with Corn starch. (2)Bone chicken with boneless. (3) for 500g chicken add whole egg and increase the egg accordingly"
+- "Video link - youtube.com/watch?v=Kca7Ayl3uCY"
+categories:
+- Recipe
+tags:
+- korean
+- honey
+- butter
+
+katakunci: korean honey butter 
+nutrition: 280 calories
+recipecuisine: American
+preptime: "PT35M"
+cooktime: "PT54M"
+recipeyield: "3"
+recipecategory: Dinner
+
+---
+
+
+![Korean Honey Butter Chicken - 허니 버터 치킨](https://img-global.cpcdn.com/recipes/d31de24b214bc7da/751x532cq70/korean-honey-butter-chicken-허니-버터-치킨-recipe-main-photo.jpg)
+
+Hello everybody, it's Brad, welcome to my recipe site. Today, we're going to prepare a distinctive dish, korean honey butter chicken - 허니 버터 치킨. One of my favorites. For mine, I'm gonna make it a bit unique. This is gonna smell and look delicious.
+
+
+
+Korean Honey Butter Chicken - 허니 버터 치킨 is one of the most popular of recent trending meals in the world. It's simple, it's fast, it tastes yummy. It is enjoyed by millions daily. Korean Honey Butter Chicken - 허니 버터 치킨 is something which I have loved my whole life. They are fine and they look wonderful.
+
+
+To get started with this particular recipe, we must first prepare a few ingredients. You can cook korean honey butter chicken - 허니 버터 치킨 using 12 ingredients and 9 steps. Here is how you cook it.
+
+<!--inarticleads1-->
+
+##### The ingredients needed to make Korean Honey Butter Chicken - 허니 버터 치킨:
+
+1. Prepare 200 g Chicken
+1. Get 1/2 tsp salt
+1. Prepare 1/2 tsp freshly ground black pepper
+1. Prepare  egg white of 1 medium size egg
+1. Make ready 2 tbsp Potato Starch
+1. Take 500 ml oil to fry
+1. Get 2 tbsp butter
+1. Prepare 2 finely chopped garlic
+1. Prepare 2 tsp brown sugar
+1. Get 1 tsp soy sauce
+1. Prepare 2 tsp honey
+1. Take  roasted sesame seeds for garnish
+
+
+
+
+<!--inarticleads2-->
+
+##### Steps to make Korean Honey Butter Chicken - 허니 버터 치킨:
+
+1. Mix 200g chicken with salt, freshly ground black pepper, egg white, potato starch.
+1. Mix the above thoroughly
+1. First fry - Bone chicken (6-8 minutes) OR boneless chicken (4-5 minutes)
+1. Rest the chicken aerated for 1-2 minutes
+1. Second Fry - 2-3 minutes or until golden brown and remove from oil
+1. Medium heat - In a broad skillet, add butter and once butter melts, add garlic and fry for a minute. Then add the brown sugar, once sugar melts, immediately add the honey, give a quick mix and turn off the heat. Now add the fried chicken and mix until the sauce is thoroughly coated to the chicken. Sprinkle with Sesame seeds
+1. Serve Hot as Appetizer
+1. Replacements : (1)Can replace potato starch with Corn starch. (2)Bone chicken with boneless. (3) for 500g chicken add whole egg and increase the egg accordingly
+1. Video link - youtube.com/watch?v=Kca7Ayl3uCY
+
+
+
+
+So that's going to wrap it up with this special food korean honey butter chicken - 허니 버터 치킨 recipe. Thank you very much for your time. I'm confident that you can make this at home. There's gonna be interesting food at home recipes coming up. Remember to save this page in your browser, and share it to your family, friends and colleague. Thanks again for reading. Go on get cooking!

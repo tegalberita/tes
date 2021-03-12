@@ -1,0 +1,170 @@
+<section class="features6 cid-s8XeElbghg" id="features06-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="row row-center">{{ range first 1 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages }}
+                    <div class="card p-3 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">{{ range first 2 ( after 1 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-lg-6 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}{{ range first 1 ( after 3 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-lg-12 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="row">{{ range first 2 ( after 4 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features2 cid-s8XgDaVoVa" id="features02-f">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">{{ range first 2 ( after 6 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title align-center mbr-white mbr-fonts-style display-4">&nbsp;</h4>
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row row-center">{{ range first 1 ( after 8 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title align-center mbr-white mbr-fonts-style display-4">&nbsp;</h4>
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">{{ range first 2 ( after 9 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title align-center mbr-white mbr-fonts-style display-4">&nbsp;</h4>
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features4 cid-s8XhyqjNEB" id="features04-h">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row row-center">{{ range first 1 ( after 11 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title align-center mbr-white mbr-fonts-style display-5">&nbsp;</h4>
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row row-center">{{ range first 1 ( after 12 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-lg-12 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title align-center mbr-white mbr-fonts-style display-5">&nbsp;</h4>
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}{{ range first 2 ( after 13 (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 15).Pages ) }}
+                    <div class="card p-3 col-lg-6 col-12">
+                        <div class="card-wrapper">
+                            <div class="card-img">
+                                <a href="{{ .Permalink }}"><img src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ $imgurl := .Params.Image }}{{ $imgurl = urls.Parse $imgurl }}https://i1.wp.com/{{$imgurl.Host}}{{$imgurl.Path}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title align-center mbr-white mbr-fonts-style display-7">&nbsp;</h4>
+                                <a href="{{ .Permalink }}"><p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><strong>{{ with .Params.katakunci }}{{ replace (replace . " in" " ") " and" " " | title }}{{ end }}</strong></p></a>
+                            </div>
+                        </div>
+                    </div>{{- end -}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts2 cid-skDS4PP5tR" id="contacts02-f">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-12">
+                <div class="container d-flex align-items-center justify-content-center mbr-fonts-style display-7">
+                    {{ partial "pagination.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

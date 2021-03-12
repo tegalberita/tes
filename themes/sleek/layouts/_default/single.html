@@ -1,0 +1,23 @@
+{{- define "main" -}}
+<section>
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-8">
+              <div class="artikel display-7">{{ if ne .Section "pages" }}
+                <div class="mb-0 mt-3">
+                  {{ partial "ads-below-title.html" . }}
+                </div>
+                {{ partial "social-share.html" . }}{{ end }}
+                <div class="mt-4 mb-4">
+                {{ replace (replace .Content "<!--inarticleads1-->" (partial "ads-in-article1.html" .)) "<!--inarticleads2-->" (partial "ads-in-article2.html" .) | safeHTML }}
+                </div>{{ if ne .Section "pages" }}
+                <div class="mt-1 mb-2">
+                  {{ partial "ads-below-content.html" . }}
+                </div>{{ end }}
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+{{ if ne .Section "pages" }}{{ partial "prev-next-post.html" . }}{{ end }}
+{{- end -}}

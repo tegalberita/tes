@@ -1,0 +1,23 @@
+{{ if .IsPage }}<section class="contacts1 cid-sjN8Ei3yHY mbr-parallax-background" id="contacts01-4">
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(18, 18, 18);"></div>
+    <div class="align-center container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-10">
+                {{ if ne .Section "pages" }}<h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-2 display-4">{{ dateFormat "02/01/2006 15:04" .Date }}</h2>
+                <h6 class="mbr-text align-left mbr-fonts-style pt-0 display-9">{{ partial "breadcrumbs.html" . }}</h6>{{ end }}
+                <h1 class="mbr-section-title align-left mbr-fonts-style mb-3 display-{{ if ne .Section "pages" }}6{{ else }}2{{ end }}"><strong>{{ .Title }}</strong></h1>
+                {{ if ne .Section "pages" }}<p class="mbr-text align-left mbr-fonts-style pb-4 display-7" style="color:hotpink;">by <strong>{{ .Params.Author }}</strong></p>{{ end }}
+            </div>
+        </div>
+    </div>
+</section>{{ else }}<section class="header2 cid-skxoxvNdOh mbr-fullscreen mbr-parallax-background" id="header02-b">
+    <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+    <div class="align-center container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-10">
+                <h1 class="mbr-section-title align-left mbr-fonts-style mb-3 display-2"><strong>{{ .Site.Params.toptitle }}</strong></h1>
+                <h2 class="mbr-section-subtitle align-left mbr-fonts-style mb-5 display-4">{{ .Site.Params.topdescription }}</h2>
+            </div>
+        </div>
+    </div>
+</section>{{ end }}

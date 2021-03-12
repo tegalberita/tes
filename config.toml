@@ -1,0 +1,90 @@
+baseURL = "https://figrecipes.netlify.app/"
+languageCode = "en-us"
+title = "A Food Store You Can Trust"
+theme = "sleek"
+sectionPagesMenu = "main"
+
+[taxonomies]
+  tag = ""
+  category = ""
+
+[permalinks]
+  post = ":slug"
+
+[params]
+  description = "A new decade is upon us, and we're celebrating with our top recipes from the last ten years"
+  topdescription = "The top 9.900 recipes in 2021 (based on the number of page visits) included roast turkey, tender pot roast, and weeknight-friendly chicken skillet"
+  toptitle = "You'll need ground beef AND Italian sausage to create this delicious recipe"
+  contentBackgroundColor = "#fff"
+  contentLinkColor = "#007bff"
+  contentLinkHoverColor = "#0056b3"
+  contentTextColor = "#212529"
+  cookieConsent = false
+  customBlockquoteStyle = true
+  customCodeStyle = true
+  customDateFormat = "Jan 2, 2006"
+  faviconMsApplicationTileColor = "#da532c"
+  faviconSafariPinnedTabColor = "#5bbad5"
+  faviconThemeColor = "#ffffff"
+  googleAnalytics = ""
+  includeBootstrapJs = true
+  navbarBackgroundColor = "#212529"
+  navbarLinkColor = "rgba(255, 255, 255, 0.75)"
+  navbarLinkHoverColor = "rgba(255, 255, 255, 1)"
+  showPostSummary = false
+  wrapperMaxWidth = ""
+  mainSections = ["mix"]
+
+[menu]
+  [[menu.pages]]
+  name = "Contact"
+  url = "/pages/contact"
+  weight = 1
+  [[menu.pages]]
+  name = "Copyright"
+  url = "/pages/copyright"
+  weight = 2
+  [[menu.pages]]
+  name = "DMCA"
+  url = "/pages/dmca"
+  weight = 3
+  [[menu.pages]]
+  name = "Privacy Policy"
+  url = "/pages/privacy-policy"
+  weight = 4
+
+[author]
+    name = "Clara Bernadette"
+    bio = "True Food Lover"
+    image = "https://i.imgur.com/qNQv8nK.jpg"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 6
+    startLevel = 2

@@ -1,0 +1,29 @@
+<hr/>
+<section class="features7 cid-sjNadLL1an" id="features07-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center">{{with .PrevInSection}}
+            <div class="card col-12 col-md-6 col-lg-4 md-pb">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <a href="{{ .Permalink }}"><h5 class="card-title text-left mbr-fonts-style display-7">&#11164; Prev recipes</h5></a>
+                        <div class="icon-wrap mb-3">
+                            <a href="{{ .Permalink }}"><img class="card-img" src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                        </div>
+                        <a href="{{ .Permalink }}"><p class="card-text mbr-semibold mbr-fonts-style display-5">{{ .Title | markdownify }}</p></a>
+                    </div>
+                </div>
+            </div>{{end}}{{with .NextInSection}}
+            <div class="card col-12 col-md-6 col-lg-4 md-pb">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <a href="{{ .Permalink }}"><h5 class="card-title text-right mbr-fonts-style display-7">Next recipes &#11166;</h5></a>
+                        <div class="icon-wrap mb-3">
+                            <a href="{{ .Permalink }}"><img class="card-img" src="{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}" alt="{{ .Title | markdownify }}"></a>
+                        </div>
+                        <a href="{{ .Permalink }}"><p class="card-text mbr-semibold mbr-fonts-style display-5">{{ .Title | markdownify }}</p></a>
+                    </div>
+                </div>
+            </div>{{end}}
+        </div>
+    </div>
+</section>

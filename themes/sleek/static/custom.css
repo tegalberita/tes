@@ -1,0 +1,56 @@
+.artikel {
+	font-family: 'Nunito';
+	line-height: 2rem;
+}
+
+.artikel p, .artikel h5, .artikel ol li {
+	font-size: 16pt;
+	line-height: 2rem;
+}
+
+.sosmed {
+	position: fixed;
+	top: 50%;
+	left: .5%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index:999;
+}
+
+.sosmed a {
+	transition: all 0.3s ease;
+	display: block;
+	padding:0;
+	margin:0;
+}
+
+.sosmed a i {
+	font-size: 34px;
+}
+
+.sosmed a i:hover {
+	color:orange;
+	background: transparent;
+}
+
+.sosmed .twitter {
+	color: #08a0e9;
+	background: transparent;
+}
+.sosmed .facebook {
+	color: #3b5998;
+	background: transparent;
+}
+.sosmed .linkedin {
+	color: #0e76a8;
+	background: transparent;
+}
+.sosmed .whatsapp {
+	color: #25d366;
+	background: transparent;
+}
+.sosmed .email {
+	color: #bb001b;
+	background: transparent;
+}
